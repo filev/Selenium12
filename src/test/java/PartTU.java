@@ -18,12 +18,12 @@ public class PartTU {
     //Check Admin Login with valid Data
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         driver = new ChromeDriver();
     }
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 
@@ -59,3 +59,4 @@ public class PartTU {
         driver.findElement(By.xpath("//span[@class='name']")).click();
     }
 }
+
